@@ -24,7 +24,9 @@
   },
   "homepage": "https://github.com/gnosis/run-with-testrpc#readme",
   "dependencies": {
-    "colors": "^1.1.2",
-    "ganache-cli": "^6.4.2"
+    "colors": "^1.1.2"
+  },
+  "devDependencies": {
+    "ganache": "^7.1.0"
   }
 }
