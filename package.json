@@ -1,7 +1,7 @@
 {
-  "name": "run-with-testrpc",
+  "name": "run-with-ganacheV7",
   "version": "0.3.1",
-  "description": "Runs commands with TestRPC",
+  "description": "Runs commands with GanacheV7",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -12,11 +12,12 @@
   "keywords": [
     "ethereum",
     "testrpc",
-    "utility"
+    "utility",
+    "ganache"
   ],
   "author": "Alan Lu <alan@gnosis.pm>",
   "bin": {
-    "run-with-testrpc": "./bin/run-with-testrpc.js"
+    "run-with-ganacheV7": "./bin/run-with-ganacheV7.js"
   },
   "license": "GPL-3.0",
   "bugs": {
@@ -24,9 +25,7 @@
   },
   "homepage": "https://github.com/gnosis/run-with-testrpc#readme",
   "dependencies": {
-    "colors": "^1.1.2"
-  },
-  "devDependencies": {
+    "colors": "^1.1.2",
     "ganache": "^7.1.0"
   }
 }
